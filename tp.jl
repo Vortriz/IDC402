@@ -159,7 +159,7 @@ md"# Appendix"
 
 # ╔═╡ 99a902b4-e78a-4a96-b7fd-220ba8d964ab
 begin
-	total_time = 400
+	total_time = 100
 	Ttr = 10
 	diffeq = (; alg = Vern9())
 	rossler_sys = CoupledODEs(rossler!, u0, p; diffeq)
